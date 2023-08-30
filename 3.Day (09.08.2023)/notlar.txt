@@ -1,0 +1,24 @@
+		MUTLAKA SLAYTI OKU
+
+rest:representational state transfer
+
+	http methodları:
+post:
+urle yeni veri ekleme
+
+put:
+urldeki veriyi güncelleme
+
+get:
+urldeki veriyi okuma getirme
+
+delete:
+urldeki veriyi silme
+
+patch:
+urldeki belirli alanlarını güncelleme için kullanılır.Kaynağı tamamen güncellemek yerine kullanılır.
+
+get ile post arasında bi fark görülmeyebilir ama standartlara uygun olarak get sadece okuma veri çekme üzerine olurken post ile veri ekleme kullanır.
+Ayrıca urlde kullanılabilir veya body kısmında da kullanılır.
+hateos:-swagger daha çok kullanılıyor ama ikisini de araştır
+

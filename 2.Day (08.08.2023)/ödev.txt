@@ -1,0 +1,9 @@
+spring framework neden constructor injectionu tavsiye eder?
+
+dbwear -postman -docker bunları öğren
+
+postman:web service ile arasındaki iletişimi kurar.
+
+dbwear:birçok database var bunların arayüzleri birçok olduğu için dbwear ile bütün databaseleri saf bir arayüz uygulayan yapı.
+
+docker:

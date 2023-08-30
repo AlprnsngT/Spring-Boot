@@ -1,0 +1,2 @@
+authorization and authentication:
+en önemli şey version. version uyumlu olması gerekiyor.

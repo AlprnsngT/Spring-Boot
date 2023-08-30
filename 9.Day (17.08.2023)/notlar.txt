@@ -1,0 +1,5 @@
+JpaRepository: Java Persistance API
+Java ile veritabanı arasında iletişimi objeler oluşturarak sağlayan API.
+
+Spring data spa aslında hybernate kullanıyor ve bu framework sayesinde rdbmse ile jdbc aracılığıyla iletişim kuruyor.
+

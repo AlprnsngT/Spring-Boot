@@ -1,0 +1,3 @@
+cookie values (çerez değerleri) araştır- çok uygulama yapmaya çalışma
+
+matrix variables (matrix değişkenleri) nedir araştırın ve mümkünse şu an kullandığımız kütüphanenin içine bir fonksiyon ata ve bunun çalıştır.

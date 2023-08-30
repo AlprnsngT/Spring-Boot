@@ -1,0 +1,15 @@
+birden fazla veri tipini bir tabloya işlemek için bulk insert kullanılır.
+kullanımı ise:
+1)öncelikle veritabanına birden fazla verileri aktaracağımız bir örnek txt dosyası oluşturabiliriz.
+2)script dosyasında 
+"bulk insert" "table_name" from "txt dosya uzantısı" 
+with 
+(DATAFILETYPE='girilen veri tiplerinin türü'
+ FIELDTERMINATOR = 'örnek txt dosyasında verileri birbirinden ayırmak için kullanılan işaret virgün nokta vs.
+ ROWTERMINATOR = 'verileri birbirinden ayırmak için kullanılan işaret - bu işaret sayesinde kaç tane veri girildiği hesaplanabilir - örnek: | - / + gibi
+ CODEPAGE = '1254' bunun sayesinde türkçe karakterlerde sorun yaşamayız.);
+
+bu script koduyla beraber oluşturmuş olduğumuz veri listesini veritabanına birden atabiliriz.
+
+not: bulk insert single insert'e göre daha hızlıdır fakat bazı durumlarda single insert kullanmak daha faydalı ve hızlı olabilir. örneğin tek seferlik küçük verilerin ekleneceği durumlarda bulk insert yerine single insert seçilmesi hız ve ve kullanışlılık açısından daha iyi bir durum sergiler.
+

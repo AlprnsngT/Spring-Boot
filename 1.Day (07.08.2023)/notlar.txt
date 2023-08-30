@@ -1,0 +1,18 @@
+1.ödev
+apache lisansı ve mit lisansını araştır
+
+
+open source vs close source : hangisi daha iyi
+alansal yazılımlara göre değişir.
+
+2.ödev
+just in time derleme ve bytecode yorumlama kavramlarını araştır
+
+maven : (src/main , src/test ...)
+projenin build edilmesi için rahatşatılmış package
+
+büyük şirketlerin kendi meaven paketleri vardır. hybernate frameworku kullanır.
+meaven projesinde bağımlılıklarımız pom.xml adı altında yapılır.
+meaven projesiyle beraber pom.xml gelir.
+
+spring ile spring boot arasındaki fark spring çalışabilmesi için bi server gerektirirken spring boot kendiliğinden bir service ile geliyor.

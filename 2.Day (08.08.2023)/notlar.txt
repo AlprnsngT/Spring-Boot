@@ -1,0 +1,24 @@
+framework vs library
+library kodları üzerinde değişikler yapılmazken framework üzerinde kodlarda oynamalar yapılabilir veya değiştirelebilir. library temel methodları tanımlarken frameworkler bizlere bunları verirken yol haritası da verir.
+
+framework neden kullanılır
+framework birden fazla kullanıcının özgün bir kod yazmalarından veya tasarım yapmalarından ziyade şirket içi uygulamalarda kullanırken işlevselliği arttırabilmek için framework kullanılır.
+
+dependency injection(bağımlılık injeksiyonu) 
+spring boot bağımlılık injeksiyonu kendisi runtime da  çözer.
+faydaları-
+esneklik
+test edilebilir
+daha az bağlantı
+tekrar kullanılabilirlik.
+
+spring booot dependency injectionu çözme yöntemleri
+1:setter injection(constructor tanımlanır.)
+2: constructor injection (setter kullanırsın)
+3:field injection (bu yöntemde constructor ve setter kullanmazsın)
+
+spring boot bağımlılık otomatik olarak enjekte etmek için @Autowired anatasyonunu kullanır. Bu sayede bağımlılıkları manuel olarak belirlemek zorunda  kalmazsınız ve Spring Framework uygun enjeksiyonu otomatik olarak gerçekleştir.
+
+aspect oriented programming: @Aspect anatasyonunu kulanılır.
+örnekle açıayaım. örneğin bir sistemde kullanıcıların girişiyle beraber her girişte dosyaya kullanıcının giriş saatini veya kullandığı fonksiyonu yazdıracaksak ama bu bizim bu işlevselliğimizi değiştirecek bir şey değilse aspect tanımlayarak bu işlemi çözebiliriz.
+

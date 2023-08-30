@@ -1,0 +1,17 @@
+	DOCKER'da bu komutu kullanarak postgre DB yarattık
+docker run --name postgrecont -e POSTGRES_PASSWORD=admin -d -p 5432:5432 postgres
+
+	docker run: Bu komut, bir Docker konteynerini başlatmak için kullanılır.
+
+	--name postgrecont: Bu parametre, Docker konteynerine bir isim verir. Burada "postgrecont" adında bir konteyner oluşturulacak.
+
+	-e POSTGRES_PASSWORD=admin: Bu parametre, Docker konteyneri içinde çalışacak PostgreSQL veritabanının yönetici (admin) parolasını belirler. Burada "admin" parolası olarak ayarlanmış.
+
+	-d: Bu parametre, Docker konteynerini arka planda (daemon modunda) çalıştırmasını sağlar.
+
+	-p 5432:5432: Bu parametre, Docker konteynerinin hangi portları dış dünyaya yönlendireceğini belirtir. İlk "5432", yerel makinedeki (host) portu temsil ederken, ikinci "5432", konteyner içindeki 	PostgreSQL servisinin kullandığı portu temsil eder. Bu örnekte, yerel 5432 portuyla konteyner içindeki 5432 portu eşleştirilmiş olur.
+
+	postgres: Bu, kullanılacak Docker imajını belirtir. PostgreSQL resmi Docker imajını temsil eder.
+
+	Sonuç olarak, verilen Docker komutu PostgreSQL 	veritabanını içeren bir Docker konteyneri oluşturur. 	Konteyner, "postgrecont" adıyla çalışır, PostgreSQL 	yönetici parolası "admin" olarak ayarlanır, 	5432 	portu dış dünyaya açılır ve PostgreSQL resmi Docker imajı kullanılır.
+

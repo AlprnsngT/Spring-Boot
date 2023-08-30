@@ -1,0 +1,17 @@
+1)	entity klasörü (database tarafında kullandığımız yapılar)
+veritabanındaki tabloları burada tanımlıyoruz
+
+	resources klasörü / application.properties
+veritabanı bilgileri buraya giriliyor.
+
+2) 	repository
+
+
+3)	service katmanı
+
+
+4)	controller
+
+
+dto : veritabanıyla ilişkilerde entitiy kullanmamalıyız bu yüzden dto kullanıyoruz
+vm  : controller tarafında kullanılır. kullanıcı veya clientlar tarafından alınan ve işlemler yaptığımız veriler (dtolar ile o kadar benzerdir ki bazen kullanılmaz)

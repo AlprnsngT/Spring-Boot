@@ -1,0 +1,25 @@
+										Select Structure: 
+1) Select komutu veritabanından veri çekmek için kullanılan sorgu türüdür. Bu komut sayesinde filtrelenmiş veya genel verileri veritabanından erişebiliriz. Select komutunu kullanırken:
+
+select ............from ........... ********* ---------
+     sütun isimleri     tablo ismi  koşullar  sıralama kriteri
+
+olarak kullanılır.
+
+										Outer Join
+2) Join birden fazla tablonun birleştirilerek tek bir tablo haline gelmesini sağlayan sorgudur. Left Outer join ve Right outer join dışında kalan outer join türü ise "Full outer join"dir.
+Full outer join tablolardaki bütün sütunları yazdıran ve bu tablolar arasındaki sütunları aynı olan değerleri ekrana bastırarak eksik kalan satırları ise null değeriyle ekrana bastıran çok fazla kullanılmayan bir outer join türüdür.
+Full outer join sayesinde eksik verileri farkedebilir veya ilişkisel tablolar kullandığımız zaman hangi verilerin eksik olduğunu görebilmemiz için kullanılır.
+
+										Having Kullanımı Having-Where
+3) Having işlemi where komutu ile benzer şekilde çalışan bir sorgu tekniğidir. Yalnız where tekniği tabloları gruplandırmalardan önce(group by) kullanılan ve özel fonksiyonları tanımlayamadığımız(aggregates) bir sorgu tekniğidir. Having sorgu tekniği group by sorgu tekniği ile beraber kullanılarak filtreleme işlemlerine özel fonksiyonlar tanımlamamıza yardımcı olur. bu özel fonksiyonlardan bazıları ise:
+
+count:bir gruplandırma sonucundaki satır sayısını verir
+
+sum: belirli sütun içerisindeki sayıları toplar
+
+avg: belirli sütundaki verilerin ortalamasını alır
+
+min,max : bir sütundaki min ve max değerleri verir.
+
+like '%' : baş harfi son harfi içerisinde geçen metinler harfler gibi filtreleme tekniği yapar.

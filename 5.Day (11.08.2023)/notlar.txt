@@ -1,0 +1,12 @@
+	responseentitiy :
+genellikle controller kısmında kullanılır.
+
+	rest api parametreleri
+path variable: bir kaynağın altındaki verilere ulaşabilmek için kullanılır. 
+
+query parameters:
+request body: postman üzerinden body kısmından girilerek okunur
+
+request headers: postman üzerinden header kısmından bir şey okumak için kullanılır.
+
+

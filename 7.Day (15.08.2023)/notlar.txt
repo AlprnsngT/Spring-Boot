@@ -1,0 +1,10 @@
+DDL kavramları : data Definition Language
+create
+rename
+truncate
+
+DML: Data Manipulation Language
+select 
+insert
+delete
+...

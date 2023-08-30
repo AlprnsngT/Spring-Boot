@@ -1,0 +1,2 @@
+dto : data transfer object
+service kısmı repository / dao ile iletişim kurarak controllera veri verir.
